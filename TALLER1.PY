@@ -20,7 +20,7 @@ n_O2T3 = 4 * math.pi * (m_O2 / (2 * math.pi * k_B * T3)) ** (3 / 2) * (v**2) * n
 
 
 
-plt.plot(v, n_O2T3, label = " TEMPERATURA BAJA")
+plt.plot(v, n_O2T1, label = " TEMPERATURA BAJA")
 
 plt.plot(v, n_O2T2, label = "TEMPERATURA MEDIA")
 
