@@ -1,3 +1,4 @@
+#TRABAJO DE PAULINA FLOREZ GARCIA Y PAULINA OROZCO RUIZ
 import numpy as np
 import math
 import matplotlib.pyplot as plt
