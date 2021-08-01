@@ -6,9 +6,9 @@ m_O2 = 5.31 * 10 ** -26       # Masa de una molecula de oxígeno, en kg
 
 k_B = 1.38e-23                # Constante de Boltzamann en Joules/Kelvin
 
-T1 = 600                      # Temperatura en Kelvin
-T2 = 800
-T3 = 1000
+T1 = 300                      # Temperatura en Kelvin
+T2 = 700
+T3 = 1100
 v = np.arange(10, 3000, 20)
 
 n_O2T1 = 4 * math.pi * (m_O2 / (2 * math.pi * k_B * T1)) ** (3 / 2) * (v**2) * np.exp(-m_O2 * v** 2 / (2 * k_B * T1))
