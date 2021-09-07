@@ -8,8 +8,6 @@ yr = np.arange(-1, 1, dy)
 
 
 x, y = np.meshgrid (xr, yr, indexing = 'ij')
-
-
 z = -x**4 + 4 +(x**2 - y**2) -3
 
 gradx, grady = np.gradient (z, dx, dy)
