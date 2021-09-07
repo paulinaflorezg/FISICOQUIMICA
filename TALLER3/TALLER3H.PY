@@ -24,7 +24,7 @@ def divergence(f, h):                                # Comando de dos parámetro
 # Ejemplo:
 
 # Definición de la función
-z =-x**4 + 4 +(x**2 - y**2) -3
+z =x**3 + 4 +(x**2 + y**2) +2
 
 gradx, grady = np.gradient (z, dx, dy)    # Sacamos el gradiente de la z = función
 
